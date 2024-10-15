@@ -31,6 +31,7 @@ import userX from "../assets/icons/userX.png";
 import whiteShare from "../assets/icons/whiteShare.png";
 import whiteBack from "../assets/icons/whiteBack.png";
 import x from "../assets/icons/x.png";
+import settings from "../assets/icons/settings.png";
 
 export default {
   add,
@@ -66,4 +67,5 @@ export default {
   whiteShare,
   whiteBack,
   x,
+  settings,
 };

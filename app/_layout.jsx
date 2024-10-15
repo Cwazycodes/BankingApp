@@ -1,14 +1,10 @@
-import { Text, View } from "react-native";
-import { Stack, useRouter } from "expo-router";
+import { Stack } from "expo-router";
 import { useFonts } from "expo-font";
 import { useEffect, useState } from "react";
-
-import Loading from "./Loading";
+import Loading from "./Loading"; 
 
 const RootLayout = () => {
   const [isLoading, setIsLoading] = useState(true);
-  const router = useRouter();
-
   const [fontsLoaded, error] = useFonts({
     Archivo: require("../assets/fonts/Archivo-VariableFont_wdth,wght.ttf"),
     Inter: require("../assets/fonts/Inter-VariableFont_opsz,wght.ttf"),
@@ -29,9 +25,9 @@ const RootLayout = () => {
   }
 
   return (
-    <Stack>
-      <Stack.Screen name="index" options={{ headerShown: false }} />
-      <Stack.Screen name="(home)" options={{ headerShown: false }} />
+    <Stack >
+      <Stack.Screen name="(tabs)" options={{ headerShown: false }} /> 
+      {/* Other routes can go here if needed */}
     </Stack>
   );
 };
