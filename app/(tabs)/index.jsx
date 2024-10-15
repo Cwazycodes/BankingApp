@@ -24,6 +24,7 @@ const TabLayout = () => {
           borderTopWidth: 0,
           borderTopColor: "#636AE8FF",
         },
+        headerShown: false,
         tabBarButton: (props) => <CustomTabBarButton {...props} route={route} />,
       })}
     >

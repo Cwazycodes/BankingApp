@@ -1,7 +1,8 @@
 import { Stack } from "expo-router";
+import {createStackNavigator} from '@react-navigation/native'
 import { useFonts } from "expo-font";
 import { useEffect, useState } from "react";
-import Loading from "./Loading"; 
+import Loading from "./Loading";
 
 const RootLayout = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -25,8 +26,8 @@ const RootLayout = () => {
   }
 
   return (
-    <Stack >
-      <Stack.Screen name="(tabs)" options={{ headerShown: false }} /> 
+    <Stack screenOptions={{headerShown:false}}>
+      <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
       {/* Other routes can go here if needed */}
     </Stack>
   );
