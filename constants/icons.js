@@ -3,7 +3,7 @@ import apply from "../assets/icons/apply.png";
 import arrowIn from "../assets/icons/arrowIn.png";
 import arrowOut from "../assets/icons/arrowOut.png";
 import bell from "../assets/icons/bell.png";
-import blackBell from "../assets/icons/blackBell.png";
+import blackBack from "../assets/icons/blackBack.png";
 import chevronLeft from "../assets/icons/chevronLeft.png";
 import chevronRight from "../assets/icons/chevronRight.png";
 import code from "../assets/icons/code.png";
@@ -38,7 +38,7 @@ export default {
   arrowIn,
   arrowOut,
   bell,
-  blackBell,
+  blackBack,
   chevronLeft,
   chevronRight,
   code,
